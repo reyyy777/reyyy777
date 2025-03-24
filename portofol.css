@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+
+
+/* Reset default */
+body, h4, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling header */
+.header {
+    background: white;
+    padding: 15px 0;
+    border-bottom: 3px solid #f4a900;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c00;
+}
+
+/* Informasi kontak */
+.contact-info {
+    display: flex;
+    gap: 40px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info i {
+    color: #f4a900;
+    font-size: 20px;
+}
+
+.info h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #002b45;
+}
+
+.info p {
+    font-size: 12px;
+    color: grey;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #495b6f; /* Warna abu-abu sesuai gambar kedua */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #374553;
+    border-radius: 5px;
+}
+
+.portofolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.software {
+    width: 50%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+h1 span {
+    display: block;
+}
+
+h2 {
+    color: #2a6ecb;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-bottom: 3px dotted #f7c948;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.images {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.integrasi {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.image- {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.image- img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.integer {
+    width: 50%;
+}
+
+.integer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+.integer h1 span {
+    display: block;
+}
+
+.integer h2 {
+    color: #2a6ecb;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-bottom: 3px dotted #f7c948;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.integer p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.checklist {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.checklist li {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer {
+    background: #002b45;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 20px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
