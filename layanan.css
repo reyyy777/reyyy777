@@ -1,0 +1,305 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Reset default */
+body, h4, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling header */
+/* Reset default */
+body, h4, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling header */
+.header {
+    background: white;
+    padding: 15px 0;
+    border-bottom: 3px solid #f4a900;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.
+
+/* Informasi kontak */
+.contact-info {
+    display: flex;
+    gap: 40px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info i {
+    color: #f4a900;
+    font-size: 20px;
+}
+
+.info h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #002b45;
+}
+
+.info p {
+    font-size: 12px;
+    color: grey;
+}
+
+/* Social icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    background: #f4a900;
+    color: black;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons a:hover {
+    background: #002b45;
+    color: white;
+}
+
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c00;
+}
+
+/* Informasi kontak */
+.contact-info {
+    display: flex;
+    gap: 40px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info i {
+    color: #f4a900;
+    font-size: 20px;
+}
+
+.info h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #002b45;
+}
+
+.info p {
+    font-size: 12px;
+    color: grey;
+}
+
+/* Social icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    background: #f4a900;
+    color: black;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons a:hover {
+    background: #002b45;
+    color: white;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #495b6f;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background:#374553;
+    border-radius: 5px;
+}
+
+.tentang {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.tentang {
+    flex: 1;
+}
+
+.tentang-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #002b45;
+}
+
+.tentang-header .date {
+    color: gray;
+    font-size: 14px;
+}
+
+
+.layanan {
+    flex: 2;
+}
+
+
+.software {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.layanan-software {
+    flex: 1; 
+    text-align: justify; 
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Latar belakang lebih soft */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.layanan-software h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #002b45;
+    text-align: center;
+    border-bottom: 3px solid #4e04fc;
+    padding-bottom: 10px;
+
+}
+
+.layanan-software h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4e09fd;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.layanan-software h2:hover {
+    color: #002b45;
+    cursor: pointer;
+}
+
+.consultation-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+}
+
+.layanan-software h2,
+.layanan-software p {
+    margin-bottom: 15px;
+}
+
+
+footer {
+    background: #002b45;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    margin-top: 20px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
